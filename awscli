@@ -1,0 +1,10 @@
+Configure new: 
+aws --version
+aws configure
+
+Here are configs of awscli:
+cs .aws 
+
+Example of AWS ClI command: 
+aws ec2 describe-key-pairs
+
