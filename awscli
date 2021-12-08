@@ -8,3 +8,5 @@ cs .aws
 Example of AWS ClI command: 
 aws ec2 describe-key-pairs
 
+Use profile in CLI: 
+aws s3 ls --profile=admin
