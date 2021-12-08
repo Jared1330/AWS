@@ -10,3 +10,11 @@ aws ec2 describe-key-pairs
 
 Use profile in CLI: 
 aws s3 ls --profile=admin
+(add profile before that): 
+cat config (and credentials)
+[default]
+region = us-east-1
+output = json
+[admin]
+region = us-east-1
+output = json
