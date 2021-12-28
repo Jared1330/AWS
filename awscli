@@ -18,3 +18,8 @@ output = json
 [admin]
 region = us-east-1
 output = json
+
+
+
+ECR: 
+aws ecr  create-repository --repository-name test --region us-east-1
