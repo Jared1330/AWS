@@ -2,6 +2,6 @@ ECR:
 # create repository
 aws ecr  create-repository --repository-name test --region us-east-1  
 # puch to ECR
-aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 236388599578.dkr.ecr.us-east-1.amazonaws.com
-docker tag c3d160665914 236388599578.dkr.ecr.us-east-1.amazonaws.com/test:latest
-docker push  236388599578.dkr.ecr.us-east-1.amazonaws.com/test:latest
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin account.dkr.ecr.us-east-1.amazonaws.com
+docker tag c3d160665914 account.dkr.ecr.us-east-1.amazonaws.com/test:latest
+docker push  account.dkr.ecr.us-east-1.amazonaws.com/test:latest
