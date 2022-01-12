@@ -6,5 +6,6 @@ Here are configs of awscli:
 cd ~/.aws
 
 Example of AWS ClI command: 
+aws iam get-user
 aws s3 ls
 aws ec2 describe-key-pairs
